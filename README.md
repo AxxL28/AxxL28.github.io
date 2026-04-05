@@ -48,12 +48,21 @@
   /* Content */
   .content { max-width:900px; margin:30px auto; padding:0 20px; text-align:center; }
   .section { margin-bottom:40px; }
-  p.summary { font-size:1.1em; line-height:1.6; }
+  p.summary, .project p { 
+    font-size:1.1em; 
+    line-height:1.6; 
+    background-color:#2B2D42; /* navy background like contributions */
+    padding: 15px; 
+    border-radius: 5px;
+    display: inline-block;
+    text-align: left;
+    max-width: 900px;
+    margin: 10px auto;
+  }
 
   /* Projects */
   .project { margin-bottom:50px; text-align:center; }
-  .project h3 { color:#ffffff; margin-bottom:5px; }
-  .project p { margin-bottom:15px; }
+  .project h2 { color:#ffffff; margin-bottom:5px; }
 
   .video-preview {
     position: relative;
@@ -86,7 +95,7 @@
     display: inline-block;
     max-width: 640px;
   }
-  .project-details h4 { margin-top:0; color:#ffffff; }
+  .project-details h4, .project-details h3 { margin-top:0; color:#ffffff; }
   .project-details ul { padding-left: 20px; }
 
   /* Links styling for better contrast */
@@ -123,11 +132,11 @@
     <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"></div>
   </div>
 </div>
-__________________________________________________________________________________________________________________________________________
+
 <div class="content">
   <div class="section">
     <p class="summary">
-<h3>Gameplay programmer specializing in building robust and scalable systems using Unreal Engine and C++. Experienced in designing and implementing core gameplay mechanics, AI behaviors, and modular architectures. Skilled in writing efficient, maintainable, and network-ready code, with a strong focus on system optimization, debugging, and clean software design practices.</h3>
+      Gameplay programmer specializing in building robust and scalable systems using Unreal Engine and C++. Experienced in designing and implementing core gameplay mechanics, AI behaviors, and modular architectures. Skilled in writing efficient, maintainable, and network-ready code, with a strong focus on system optimization, debugging, and clean software design practices.
     </p>
   </div>
 
@@ -136,7 +145,9 @@ ________________________________________________________________________________
 
     <div class="project">
       <h2>Blood and Lineage</h2>
-      <p>A 3D roguelike-Musou hybrid built in Unreal Engine, featuring dynamic combat, unique enemy designs, and procedurally generated levels for endless replayability.</p>
+      <p>
+        A 3D roguelike-Musou hybrid built in Unreal Engine, featuring dynamic combat, unique enemy designs, and procedurally generated levels for endless replayability.
+      </p>
       <div class="video-preview">
         <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
           <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg" alt="Blood and Lineage Preview">
