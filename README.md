@@ -99,7 +99,7 @@
 
 <div class="banner">
   <h1>Antonio Leo</h1>
-  <h2>Game Programmer | Gameplay Systems | Unreal Engine Developer</h2>
+  <h2>Game Developer | Systems Programmer & Architect | C++ & Unreal Engine Specialist</h2>
   <!-- Social Links -->
   <div class="icon-links">
     <a href="https://linkedin.com/in/antonio-leo-4290a535a/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
