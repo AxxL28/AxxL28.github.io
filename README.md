@@ -1,7 +1,6 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Antonio Leo Portfolio</title>
 <style>
   body { 
     font-family: Arial, sans-serif; 
@@ -41,8 +40,8 @@
     height: 60px; 
   }
   .tech-stack img { 
-    width: 40px; 
-    height: 40px; 
+    width: 50px; 
+    height: 50px; 
     background: transparent; /* ensure no white background */
   }
 
@@ -100,7 +99,7 @@
 
 <div class="banner">
   <h1>Antonio Leo</h1>
-  <h3>Game Programmer | Gameplay Systems | Unreal Engine Developer</h3>
+  <h2>Game Programmer | Gameplay Systems | Unreal Engine Developer</h2>
   <!-- Social Links -->
   <div class="icon-links">
     <a href="https://linkedin.com/in/antonio-leo-4290a535a/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -128,15 +127,15 @@
 <div class="content">
   <div class="section">
     <p class="summary">
-      Game programmer focused on building responsive, scalable gameplay systems using Unreal Engine and C++. Experienced in developing core mechanics, AI behaviors, and modular architectures. Passionate about creating polished player experiences and continuously improving technical and problem-solving skills.
+<h3>Gameplay programmer specializing in building robust and scalable systems using Unreal Engine and C++. Experienced in designing and implementing core gameplay mechanics, AI behaviors, and modular architectures. Skilled in writing efficient, maintainable, and network-ready code, with a strong focus on system optimization, debugging, and clean software design practices.</h3>
     </p>
   </div>
 
   <div class="section">
-    <h2>Projects</h2>
+    <h1>Projects</h1>
 
     <div class="project">
-      <h3>Blood and Lineage</h3>
+      <h2>Blood and Lineage</h2>
       <p>A 3D rouge-like musou combination built in Unreal Engine featuring dynamic combat, custom enemies, and an procedurally generted levels.</p>
 
       <div class="video-preview">
