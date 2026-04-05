@@ -147,20 +147,30 @@
       </div>
 
       <div class="project-details">
-      <h2>My Contributions:</h2>
-        <h3>My Ability System/Implementaion:</h3>
+        <h2>My Contributions</h2>
+      
+        <h3>Ability System Design & Implementation</h3>
         <ul>
-          <li>Designed and implemented the System Architecture for gameplay abilities</li>
-          <li>Designed and implemented 13/16 unique gameplay abilities</li>
-          <li>Networked all gameplay abilities</li>
-          <li>Integrated all animations and vfx for all abilities</li>
+          <li>Architected and implemented the core system for modular gameplay abilities.</li>
+          <li>Designed and developed 13 out of 16 unique gameplay abilities.</li>
+          <li>Implemented full network replication for all abilities to ensure multiplayer consistency.</li>
+          <li>Integrated animations and visual effects for all abilities, maintaining high polish and responsiveness.</li>
         </ul>
-        <h3>My Character Class System/Implementation:</h3>
+      
+        <h3>Character Class System Design & Implementation</h3>
         <ul>
-          <li>Designed and implemented the System Architecture to accomadate multiple unique characters</li>
-          <li>Custom Camera Behaviour</li>
-          <li>Unique basic attacks for each class</li>
-          <li>Efficiently networked all animations, vfx, attacks, camera behaviour, etc.</li>
+          <li>Engineered a scalable architecture to support multiple unique character classes.</li>
+          <li>Implemented custom camera behavior for optimized player experience.</li>
+          <li>Developed distinct basic attacks and mechanics for each character class.</li>
+          <li>Networked all animations, effects, attacks, and camera functionality efficiently.</li>
+        </ul>
+      
+        <h3>Team Leadership & Project Support</h3>
+        <ul>
+          <li>Led team operations, fostering effective collaboration and maintaining motivation.</li>
+          <li>Organized tasks, meetings, and project workflow to ensure timely progress and smooth coordination.</li>
+          <li>Assisted in debugging and maintaining project stability throughout development.</li>
+          <li>Promoted a positive team culture, encouraging communication and problem-solving.</li>
         </ul>
       </div>
     </div>
