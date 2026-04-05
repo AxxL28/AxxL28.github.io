@@ -136,23 +136,31 @@
     <h2>Projects</h2>
 
     <div class="project">
-      <h3>Epic Adventure RPG</h3>
-      <p>A 3D action RPG built in Unreal Engine featuring dynamic combat, AI enemies, and an open-world exploration system.</p>
+      <h3>Blood and Lineage</h3>
+      <p>A 3D rouge-like musou combinationbuilt in Unreal Engine featuring dynamic combat, custom enemies, and an procedurally generted levels.</p>
 
       <div class="video-preview">
         <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
-          <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg" alt="Epic Adventure RPG Preview">
+          <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg" alt="Blood and Lineage Preview">
           <div class="play-button">&#9658;</div>
         </a>
       </div>
 
       <div class="project-details">
-        <h4>My Contributions:</h4>
+      <h2>My Contributions:</h2>
+        <h3>My Ability System/Implementaion:</h3>
         <ul>
-          <li>Designed and implemented the modular combat system using Unreal Engine C++.</li>
-          <li>Developed AI behavior trees for enemies and NPC interactions.</li>
-          <li>Optimized level streaming and performance for large open-world environments.</li>
-          <li>Integrated multiplayer networking for co-op gameplay.</li>
+          <li>Designed and implemented the System Architecture for gameplay abilities</li>
+          <li>Designed and implemented 13/16 unique gameplay abilities</li>
+          <li>Networked all gameplay abilities</li>
+          <li>Integrated all animations and vfx for all abilities</li>
+        </ul>
+        <h3>My Character Class System/Implementation:</h3>
+        <ul>
+          <li>Designed and implemented the System Architecture to accomadate multiple unique characters</li>
+          <li>Custom Camera Behaviour</li>
+          <li>Unique basic attacks for each class</li>
+          <li>Efficiently networked all animations, vfx, attacks, camera behaviour, etc.</li>
         </ul>
       </div>
     </div>
