@@ -31,7 +31,7 @@
     margin: 20px 0; 
   }
   .tech-stack .icon-wrapper { 
-    background-color: #2e2e2e; 
+    background-color: #bfbfbf; /* light grey background */
     padding: 10px; 
     border-radius: 10px; 
     display: flex; 
@@ -43,6 +43,7 @@
   .tech-stack img { 
     width: 40px; 
     height: 40px; 
+    background: transparent; /* ensure no white background */
   }
 
   /* Content */
@@ -100,7 +101,6 @@
 <div class="banner">
   <h1>Antonio Leo</h1>
   <h3>Game Programmer | Gameplay Systems | Unreal Engine Developer</h3>
-
   <!-- Social Links -->
   <div class="icon-links">
     <a href="https://linkedin.com/in/antonio-leo-4290a535a/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -109,7 +109,6 @@
     <a href="https://github.com/AxxL28" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
     <a href="https://youtube.com/@antonioleo2141" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
   </div>
-  
   <!-- Tech Stack Icons -->
   <div class="tech-stack">
     <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg"></div>
@@ -124,8 +123,6 @@
     <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"></div>
     <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"></div>
   </div>
-
-
 </div>
 
 <div class="content">
