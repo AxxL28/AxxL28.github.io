@@ -123,7 +123,7 @@
     <div class="icon-wrapper"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg"></div>
   </div>
 </div>
-______________________________________________
+__________________________________________________________________________________________________________________________________________
 <div class="content">
   <div class="section">
     <p class="summary">
