@@ -137,7 +137,7 @@
 
     <div class="project">
       <h3>Blood and Lineage</h3>
-      <p>A 3D rouge-like musou combinationbuilt in Unreal Engine featuring dynamic combat, custom enemies, and an procedurally generted levels.</p>
+      <p>A 3D rouge-like musou combination built in Unreal Engine featuring dynamic combat, custom enemies, and an procedurally generted levels.</p>
 
       <div class="video-preview">
         <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
