@@ -1,9 +1,3 @@
-/* Remove default link styling */
-a {
-  color: inherit;        /* Makes the link text inherit its parent color */
-  text-decoration: none; /* Removes the underline */
-}
-
 <html lang="en">
 <head>
 <meta charset="UTF-8">
