@@ -41,3 +41,29 @@ Game programmer focused on building responsive, scalable gameplay systems using 
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="40"/> |
 
 </div>
+
+---
+
+<div align="center">
+
+## Projects
+
+### Project Title Here
+<p style="max-width:800px; text-align:center;">
+Brief description of the project. Explain the concept, gameplay, or systems it showcases in 2–3 sentences.
+</p>
+
+<a href="https://www.youtube.com/watch?v=LbTo7I9M6kM" target="_blank" style="position: relative; display: inline-block;">
+  <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg" alt="Project Video" width="640" style="border:1px solid #ccc;"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/75/YouTube_play_button_icon_(2017).svg" 
+       alt="Play Video" width="100" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); opacity: 0.8;"/>
+</a>
+
+<p style="max-width:800px; text-align:left; margin-top:15px;">
+**My Contributions:**  
+- Contribution 1 (e.g., implemented core combat mechanics in C++)  
+- Contribution 2 (e.g., developed AI behavior system)  
+- Contribution 3 (e.g., optimized performance and integrated UI)  
+</p>
+
+</div>
