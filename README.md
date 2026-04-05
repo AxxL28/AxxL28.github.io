@@ -1,12 +1,12 @@
-<table width="100%" style="background-color:#2B2D42; color:black; text-align:center; padding:20px;">
-<tr>
-<td>
+<div align="center">
+
+
 
 # Antonio Leo
 
 ### Game Programmer | Gameplay Systems | Unreal Engine Developer
-<div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap; margin-top: 10px;">
-<p>
+
+<div style="display: flex; justify-content:center; gap: 10px; flex-wrap: wrap; margin-top: 10px;">
   <a href="https://www.linkedin.com/in/antonio-leo-4290a535a/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
@@ -22,12 +22,22 @@
   <a href="https://www.youtube.com/@antonioleo2141">
     <img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
   </a>
+</div>
+
+</td>
+</tr>
+</table>
+
+---
+
+<p style="max-width:800px; text-align:center;">
+Game programmer focused on building responsive, scalable gameplay systems using Unreal Engine and C++. Experienced in developing core mechanics, AI behaviors, and modular architectures. Passionate about creating polished player experiences and continuously improving technical and problem-solving skills.
 </p>
 
 ---
-Game programmer focused on building responsive, scalable gameplay systems using Unreal Engine and C++. Experienced in developing core mechanics, AI behaviors, and modular architectures. Passionate about creating polished player experiences and continuously improving technical and problem-solving skills.
----
 
 | Game Engines | Programming Languages | Development Tools | Version Control & Collaboration |
-|--------------|----------------------|-----------------|--------------------------------|
+|:------------:|:-------------------:|:----------------:|:------------------------------:|
 | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unrealengine/unrealengine-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/unity/unity-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="40"/> | <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="40"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" width="40"/> |
+
+</div>
