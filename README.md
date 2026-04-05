@@ -3,7 +3,6 @@
 <meta charset="UTF-8">
 <title>Antonio Leo Portfolio</title>
 <style>
-
   body { 
     font-family: Arial, sans-serif; 
     background-color: #1b0b3b; 
@@ -15,10 +14,10 @@
 
   /* Banner */
   .banner { 
-    background-color:#2B2D42; 
-    color:white; 
-    text-align:center; 
-    padding:40px 20px; 
+    background-color: #1b0b3b; /* unified dark purple */
+    color: white; 
+    text-align: center; 
+    padding: 40px 20px; 
   }
   .banner h1 { margin:0; font-size:3em; }
   .banner h3 { margin:10px 0 20px 0; font-weight:normal; }
