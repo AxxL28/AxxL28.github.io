@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -67,3 +66,65 @@
 
 </body>
 </html>
+
+<div class="section">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Epic Adventure RPG</h3>
+    <p>A 3D action RPG built in Unreal Engine featuring dynamic combat, AI enemies, and an open-world exploration system.</p>
+
+    <div class="video-preview">
+      <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+        <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg" alt="Epic Adventure RPG Preview">
+        <div class="play-button">&#9658;</div>
+      </a>
+    </div>
+
+    <div class="project-details">
+      <h4>My Contributions:</h4>
+      <ul>
+        <li>Designed and implemented the modular combat system using Unreal Engine C++.</li>
+        <li>Developed AI behavior trees for enemies and NPC interactions.</li>
+        <li>Optimized level streaming and performance for large open-world environments.</li>
+        <li>Integrated multiplayer networking for co-op gameplay.</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+<style>
+  .project { margin-bottom: 50px; text-align: left; }
+  .project h3 { color:#2B2D42; margin-bottom:5px; }
+  .project p { margin-bottom:15px; }
+  
+  .video-preview {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 15px;
+  }
+
+  .video-preview img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+  }
+
+  .video-preview .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    opacity: 0.8;
+    pointer-events: none;
+  }
+
+  .project-details { background-color:#f0f0f0; padding:15px; border-radius:5px; }
+  .project-details h4 { margin-top:0; color:#2B2D42; }
+  .project-details ul { padding-left: 20px; }
+</style>
