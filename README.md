@@ -3,16 +3,78 @@
 <meta charset="UTF-8">
 <title>Antonio Leo Portfolio</title>
 <style>
-  body { font-family: Arial, sans-serif; background-color: #f4f4f4; margin:0; padding:0; color:#333; }
-  .banner { background-color:#2B2D42; color:white; text-align:center; padding:40px 20px; }
+
+  body { 
+    font-family: Arial, sans-serif; 
+    background-color: #1b0b3b; 
+    margin:0; 
+    padding:0; 
+    color:#ffffff; 
+    text-align: center;
+  }
+
+  /* Banner */
+  .banner { 
+    background-color:#2B2D42; 
+    color:white; 
+    text-align:center; 
+    padding:40px 20px; 
+  }
   .banner h1 { margin:0; font-size:3em; }
   .banner h3 { margin:10px 0 20px 0; font-weight:normal; }
   .icon-links a { margin: 0 5px; display:inline-block; }
+
+  /* Content */
   .content { max-width:900px; margin:30px auto; padding:0 20px; text-align:center; }
   .section { margin-bottom:40px; }
-  .section h2 { border-bottom:2px solid #2B2D42; padding-bottom:5px; margin-bottom:15px; color:#2B2D42; }
+  .section h2 { border-bottom:2px solid #ffffff; padding-bottom:5px; margin-bottom:15px; color:#ffffff; }
+  p.summary { font-size:1.1em; line-height:1.6; }
+
+  /* Tech icons */
   .tech-icons img { width:40px; margin:5px; }
-  p.summary { font-size:1.1em; line-height:1.6; text-align:left; }
+
+  /* Projects */
+  .project { margin-bottom:50px; text-align:center; }
+  .project h3 { color:#ffffff; margin-bottom:5px; }
+  .project p { margin-bottom:15px; }
+
+  .video-preview {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    max-width: 640px;
+    margin-bottom: 15px;
+  }
+  .video-preview img {
+    width: 100%;
+    border-radius: 5px;
+    display: block;
+  }
+  .video-preview .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;
+    opacity: 0.8;
+    pointer-events: none;
+  }
+
+  .project-details { 
+    background-color:#2B2D42; 
+    padding:15px; 
+    border-radius:5px; 
+    text-align: left;
+    display: inline-block;
+    max-width: 640px;
+  }
+  .project-details h4 { margin-top:0; color:#ffffff; }
+  .project-details ul { padding-left: 20px; }
+
+  /* Links styling for better contrast */
+  a img { border-radius:5px; }
+
 </style>
 </head>
 <body>
@@ -62,69 +124,34 @@
       <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg">
     </div>
   </div>
+
+  <div class="section">
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3>Epic Adventure RPG</h3>
+      <p>A 3D action RPG built in Unreal Engine featuring dynamic combat, AI enemies, and an open-world exploration system.</p>
+
+      <div class="video-preview">
+        <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
+          <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg" alt="Epic Adventure RPG Preview">
+          <div class="play-button">&#9658;</div>
+        </a>
+      </div>
+
+      <div class="project-details">
+        <h4>My Contributions:</h4>
+        <ul>
+          <li>Designed and implemented the modular combat system using Unreal Engine C++.</li>
+          <li>Developed AI behavior trees for enemies and NPC interactions.</li>
+          <li>Optimized level streaming and performance for large open-world environments.</li>
+          <li>Integrated multiplayer networking for co-op gameplay.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 </body>
 </html>
-
-<div class="section">
-  <h2>Projects</h2>
-
-  <div class="project">
-    <h3>Epic Adventure RPG</h3>
-    <p>A 3D action RPG built in Unreal Engine featuring dynamic combat, AI enemies, and an open-world exploration system.</p>
-
-    <div class="video-preview">
-      <a href="https://www.youtube.com/watch?v=YOUR_VIDEO_ID" target="_blank">
-        <img src="https://img.youtube.com/vi/YOUR_VIDEO_ID/hqdefault.jpg" alt="Epic Adventure RPG Preview">
-        <div class="play-button">&#9658;</div>
-      </a>
-    </div>
-
-    <div class="project-details">
-      <h4>My Contributions:</h4>
-      <ul>
-        <li>Designed and implemented the modular combat system using Unreal Engine C++.</li>
-        <li>Developed AI behavior trees for enemies and NPC interactions.</li>
-        <li>Optimized level streaming and performance for large open-world environments.</li>
-        <li>Integrated multiplayer networking for co-op gameplay.</li>
-      </ul>
-    </div>
-  </div>
-
-</div>
-
-<style>
-  .project { margin-bottom: 50px; text-align: left; }
-  .project h3 { color:#2B2D42; margin-bottom:5px; }
-  .project p { margin-bottom:15px; }
-  
-  .video-preview {
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    max-width: 640px;
-    margin-bottom: 15px;
-  }
-
-  .video-preview img {
-    width: 100%;
-    border-radius: 5px;
-    display: block;
-  }
-
-  .video-preview .play-button {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-    color: white;
-    opacity: 0.8;
-    pointer-events: none;
-  }
-
-  .project-details { background-color:#f0f0f0; padding:15px; border-radius:5px; }
-  .project-details h4 { margin-top:0; color:#2B2D42; }
-  .project-details ul { padding-left: 20px; }
-</style>
