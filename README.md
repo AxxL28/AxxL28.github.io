@@ -3,7 +3,7 @@
 ### Game Programmer | Gameplay Systems | Unreal Engine Developer
 
 <p>
-  <a href="[https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/antonio-leo-4290a535a/)">
+  <a href="https://www.linkedin.com/in/antonio-leo-4290a535a/">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://github.com/yourusername/yourrepo/blob/main/YourResume.pdf">
