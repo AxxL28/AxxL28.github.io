@@ -150,7 +150,7 @@
       </p>
       <div class="video-preview">
         <a href="https://youtu.be/oWBnQoz2f60" target="_blank">
-          <img src="https://img.youtube.com/vi/https://youtu.be/oWBnQoz2f60/hqdefault.jpg" alt="Blood and Lineage Preview">
+          <img src="https://img.youtube.com/vi/oWBnQoz2f60/hqdefault.jpg" alt="Blood and Lineage Preview">
           <div class="play-button">&#9658;</div>
         </a>
       </div>
