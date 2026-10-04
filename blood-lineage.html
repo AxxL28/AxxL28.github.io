@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Blood & Lineage | Antonio Leo</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="project-details.css">
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="../index.html" class="logo">
+        ANTONIO<span> LEO</span>
+    </a>
+
+    <nav>
+        <a href="../index.html#work">Work</a>
+        <a href="../index.html#skills">Skills</a>
+        <a href="../index.html#about">About</a>
+        <a href="../index.html#contact">Contact</a>
+    </nav>
+</header>
+
+<main class="project-detail">
+
+    <section class="detail-hero">
+        <a href="../index.html#work" class="back-link">
+            ← Back to Projects
+        </a>
+
+        <p class="eyebrow">MULTIPLAYER ROGUELIKE • GAMEPLAY PROGRAMMING</p>
+
+        <h1>Blood &amp; Lineage</h1>
+
+        <p class="detail-lead">
+            A 3D roguelike-Musou hybrid built around fast-paced combat,
+            unique character abilities, multiplayer gameplay, and
+            procedurally generated levels.
+        </p>
+
+        <div class="detail-meta">
+            <div>
+                <span>ENGINE</span>
+                <strong>Unreal Engine</strong>
+            </div>
+
+            <div>
+                <span>LANGUAGE</span>
+                <strong>C++</strong>
+            </div>
+
+            <div>
+                <span>ROLE</span>
+                <strong>Gameplay Programmer &amp; Team Lead</strong>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="detail-media">
+        <video autoplay muted loop controls playsinline preload="metadata">
+            <source src="../videos/blood-lineage.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+
+    <section class="detail-section">
+        <div class="detail-heading">
+            <p class="eyebrow">01 • OVERVIEW</p>
+            <h2>Building the gameplay foundation</h2>
+        </div>
+
+        <div class="detail-text">
+            <p>
+                Blood &amp; Lineage was developed as a multiplayer-focused
+                capstone project. The goal was to create a fast, replayable
+                action experience while keeping the underlying gameplay
+                systems modular enough to support multiple playable classes
+                and a large collection of abilities.
+            </p>
+
+            <p>
+                My work focused heavily on gameplay architecture. I designed
+                the core modular gameplay ability system, implemented 13 of
+                the project's 16 unique abilities, and worked on the network
+                replication required to keep abilities, animations, effects,
+                and attacks synchronized in multiplayer.
+            </p>
+        </div>
+    </section>
+
+
+    <section class="detail-section split-section">
+        <div class="detail-heading">
+            <p class="eyebrow">02 • MY CONTRIBUTIONS</p>
+            <h2>Systems I worked on</h2>
+        </div>
+
+        <div class="detail-grid">
+            <article class="detail-card">
+                <span class="card-number">01</span>
+                <h3>Ability System</h3>
+                <p>
+                    Architected the core modular gameplay ability system and
+                    developed 13 of the project's 16 unique abilities.
+                </p>
+            </article>
+
+            <article class="detail-card">
+                <span class="card-number">02</span>
+                <h3>Multiplayer</h3>
+                <p>
+                    Implemented network replication across gameplay abilities,
+                    animations, effects, and attacks to maintain multiplayer
+                    consistency.
+                </p>
+            </article>
+
+            <article class="detail-card">
+                <span class="card-number">03</span>
+                <h3>Character Systems</h3>
+                <p>
+                    Developed a scalable character architecture supporting
+                    multiple character classes, unique attacks, mechanics,
+                    and camera behaviour.
+                </p>
+            </article>
+
+            <article class="detail-card">
+                <span class="card-number">04</span>
+                <h3>Team Leadership</h3>
+                <p>
+                    Organized project workflow, coordinated development tasks,
+                    assisted with debugging, and helped maintain project
+                    stability throughout development.
+                </p>
+            </article>
+        </div>
+    </section>
+
+
+    <section class="detail-section">
+        <div class="detail-heading">
+            <p class="eyebrow">03 • TECHNICAL BREAKDOWN</p>
+            <h2>Gameplay architecture</h2>
+        </div>
+
+        <div class="technical-block">
+            <div class="technical-copy">
+                <h3>Modular abilities</h3>
+                <p>
+                    The ability system was designed around reusable gameplay
+                    logic so different character classes could share the same
+                    foundation while still providing distinct attacks and
+                    mechanics.
+                </p>
+                <p>
+                    This approach made it easier to add new abilities without
+                    rewriting the character architecture for every class.
+                </p>
+            </div>
+
+            <div class="code-window">
+                <div class="code-header">
+                    <span>AbilityBase.h</span>
+                    <span>C++</span>
+                </div>
+                <pre><code>// Add your actual AbilityBase code here.
+//
+// Recommended snippet to show:
+// - ability category
+// - target type
+// - activation logic
+// - damage / effect handling</code></pre>
+            </div>
+        </div>
+
+        <div class="technical-block reverse-block">
+            <div class="technical-copy">
+                <h3>Networked gameplay</h3>
+                <p>
+                    Multiplayer consistency was an important part of the
+                    project. Gameplay abilities, animations, effects, and
+                    attacks needed to behave correctly across the network
+                    rather than only on the local player's machine.
+                </p>
+                <p>
+                    This required treating gameplay actions as network-aware
+                    systems and debugging both local and replicated behaviour.
+                </p>
+            </div>
+
+            <div class="code-window">
+                <div class="code-header">
+                    <span>Networked Ability</span>
+                    <span>C++</span>
+                </div>
+                <pre><code>// Add your actual replicated gameplay code here.
+//
+// Recommended snippet to show:
+// - Server RPC
+// - replicated state
+// - client/server execution
+// - gameplay effect synchronization</code></pre>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="detail-section">
+        <div class="detail-heading">
+            <p class="eyebrow">04 • CHALLENGES</p>
+            <h2>Problems worth solving</h2>
+        </div>
+
+        <div class="challenge-list">
+            <article>
+                <span>01</span>
+                <div>
+                    <h3>Keeping systems modular</h3>
+                    <p>
+                        Multiple playable classes needed different gameplay
+                        identities without creating a separate architecture
+                        for every character. The solution was to build shared
+                        systems that could be extended with class-specific
+                        behaviour.
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <span>02</span>
+                <div>
+                    <h3>Maintaining multiplayer consistency</h3>
+                    <p>
+                        Gameplay could not rely solely on local execution.
+                        Abilities, attacks, animations, and effects needed to
+                        remain consistent between players and the server.
+                    </p>
+                </div>
+            </article>
+
+            <article>
+                <span>03</span>
+                <div>
+                    <h3>Managing a team project</h3>
+                    <p>
+                        As team lead, I also helped coordinate development,
+                        organize tasks, troubleshoot issues, and keep the
+                        project moving toward a stable playable build.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <section class="detail-section final-section">
+        <p class="eyebrow">05 • PROJECT LINKS</p>
+        <h2>See it in action</h2>
+
+        <div class="detail-links">
+            <a href="https://youtu.be/oWBnQoz2f60"
+               target="_blank"
+               rel="noopener noreferrer"
+               class="detail-button primary-detail-button">
+                <i class="fa-brands fa-youtube"></i>
+                Watch Gameplay
+            </a>
+
+            <a href="../index.html#work" class="detail-button">
+                ← Back to Projects
+            </a>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Antonio Leo</p>
+    <p>
+        Gameplay Programmer •
+        <i class="devicon-cplusplus-plain" title="C++"></i>
+        •
+        <i class="devicon-unrealengine-original" title="Unreal Engine"></i>
+    </p>
+</footer>
+
+</body>
+</html>
