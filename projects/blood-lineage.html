@@ -1,7 +1,9 @@
-```html
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -15,9 +17,12 @@
 
     <link rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
 </head>
 
+
 <body>
+
 
 <header class="navbar">
 
@@ -35,27 +40,41 @@
 </header>
 
 
+
 <main class="project-detail">
 
 
-    <!-- HERO -->
+    <!-- =========================================
+         HERO
+    ========================================== -->
+
     <section class="detail-hero">
 
         <a href="../index.html#work" class="back-link">
+
             <i class="fa-solid fa-arrow-left"></i>
+
             Back to Projects
+
         </a>
+
 
         <p class="eyebrow">
             MULTIPLAYER ROGUELIKE • GAMEPLAY PROGRAMMING
         </p>
 
-        <h1>Blood &amp; Lineage</h1>
+
+        <h1>
+            Blood &amp; Lineage
+        </h1>
+
 
         <p class="detail-lead">
+
             A 3D roguelike-Musou hybrid built around fast-paced combat,
             unique character abilities, multiplayer gameplay, and
             procedurally generated levels.
+
         </p>
 
 
@@ -86,66 +105,70 @@
     </section>
 
 
-    <!-- VIDEO -->
+
+    <!-- =========================================
+         GAMEPLAY VIDEO
+    ========================================== -->
+
     <section class="detail-media">
 
         <video autoplay muted loop controls playsinline preload="metadata">
-            <source src="../videos/blood-lineage.mp4" type="video/mp4">
+
+            <source
+                src="../videos/Blood&Lineage_Gameplay.mp4"
+                type="video/mp4">
+
             Your browser does not support the video tag.
+
         </video>
 
     </section>
 
 
-    <!-- QUICK STATS -->
-    <section class="project-stats">
 
-        <div>
-            <strong>13</strong>
-            <span>Abilities Developed</span>
-        </div>
+    <!-- =========================================
+         01 — GAME SUMMARY
+    ========================================== -->
 
-        <div>
-            <strong>4</strong>
-            <span>Playable Classes</span>
-        </div>
-
-        <div>
-            <strong>4</strong>
-            <span>Player Multiplayer</span>
-        </div>
-
-        <div>
-            <strong>8</strong>
-            <span>Month Development</span>
-        </div>
-
-    </section>
-
-
-    <!-- OVERVIEW -->
     <section class="detail-section">
 
-        <p class="eyebrow">01 • OVERVIEW</p>
+        <p class="eyebrow">
+            01 • GAME SUMMARY
+        </p>
 
-        <h2>Building the gameplay foundation</h2>
+
+        <h2>
+            Building a multiplayer action game
+        </h2>
+
 
         <div class="detail-text">
 
             <p>
-                Blood &amp; Lineage was developed as a multiplayer-focused
-                capstone project. The goal was to create a fast, replayable
-                action experience while keeping the underlying gameplay
-                systems modular enough to support multiple playable classes
-                and a large collection of abilities.
+
+                Blood &amp; Lineage was developed as an 8-month
+                multiplayer-focused capstone project with a team of
+                11 developers.
+
             </p>
+
 
             <p>
-                My work focused heavily on gameplay architecture. I designed
-                the core modular gameplay ability system, implemented 13 of
-                the project's 16 unique abilities, and worked on the network
-                replication required to keep abilities, animations, effects,
-                and attacks synchronized in multiplayer.
+
+                The game combines fast-paced Musou-style combat with
+                roguelike progression, procedural level generation,
+                unique playable classes, and cooperative multiplayer.
+
+            </p>
+
+
+            <p>
+
+                My primary focus was gameplay programming. I designed
+                the core ability architecture, implemented 13 of the
+                project's 16 unique abilities, worked on multiplayer
+                replication, and helped lead the programming team.
+
             </p>
 
         </div>
@@ -153,482 +176,778 @@
     </section>
 
 
-    <!-- GAMEPLAY -->
-    <section class="detail-section">
 
-        <p class="eyebrow">02 • GAMEPLAY</p>
+    <!-- =========================================
+     02 — MY CONTRIBUTIONS
+========================================== -->
 
-        <h2>The final experience</h2>
+<section class="detail-section contributions-section">
 
-        <div class="image-gallery">
+    <p class="eyebrow">
+        02 • MY CONTRIBUTIONS
+    </p>
 
-            <figure class="gallery-large">
-                <img src="../images/blood-lineage/gameplay-1.jpg"
-                     alt="Blood and Lineage gameplay">
-            </figure>
+    <h2>
+        What I worked on
+    </h2>
 
-            <figure>
-                <img src="../images/blood-lineage/gameplay-2.jpg"
-                     alt="Blood and Lineage combat">
-            </figure>
-
-            <figure>
-                <img src="../images/blood-lineage/gameplay-3.jpg"
-                     alt="Blood and Lineage gameplay">
-            </figure>
-
-        </div>
-
-    </section>
+    <p class="section-description">
+        Select an area below to explore the systems I worked on,
+        including code examples, implementation details, and technical decisions.
+    </p>
 
 
-    <!-- CONTRIBUTIONS -->
-    <section class="detail-section">
-
-        <p class="eyebrow">03 • MY CONTRIBUTIONS</p>
-
-        <h2>What I worked on</h2>
+    <div class="contribution-list">
 
 
-        <div class="detail-grid">
+        <!-- =========================================
+             ABILITY SYSTEM
+        ========================================== -->
 
-            <article class="detail-card">
+        <article class="contribution-item">
 
-                <h3>Ability System</h3>
+            <button class="contribution-button" type="button">
 
-                <p>
-                    Architected the core modular gameplay ability system and
-                    developed 13 of the project's 16 unique abilities.
-                </p>
-
-                <div class="card-tags">
-                    <span>C++</span>
-                    <span>GAS</span>
+                <div class="contribution-number">
+                    01
                 </div>
 
-            </article>
+                <div class="contribution-info">
 
+                    <h3>
+                        Ability System
+                    </h3>
 
-            <article class="detail-card">
+                    <p>
+                        Designed the modular gameplay ability architecture
+                        and implemented 13 of the game's 16 unique abilities.
+                    </p>
 
-                <h3>Multiplayer</h3>
-
-                <p>
-                    Implemented network replication across gameplay abilities,
-                    animations, effects, and attacks to maintain multiplayer
-                    consistency.
-                </p>
-
-                <div class="card-tags">
-                    <span>Replication</span>
-                    <span>RPCs</span>
                 </div>
 
-            </article>
-
-
-            <article class="detail-card">
-
-                <h3>Character Systems</h3>
-
-                <p>
-                    Developed a scalable character architecture supporting
-                    multiple classes, unique attacks, mechanics, and camera
-                    behaviour.
-                </p>
-
-                <div class="card-tags">
-                    <span>Character</span>
-                    <span>Combat</span>
+                <div class="contribution-icon">
+                    <i class="fa-solid fa-chevron-down"></i>
                 </div>
 
-            </article>
+            </button>
 
 
-            <article class="detail-card">
+            <div class="contribution-content">
 
-                <h3>Team Leadership</h3>
+                <div class="contribution-intro">
 
-                <p>
-                    Organized project workflow, coordinated development tasks,
-                    assisted with debugging, and helped maintain project
-                    stability throughout development.
-                </p>
+                    <p class="eyebrow">
+                        ABILITY SYSTEM
+                    </p>
 
-                <div class="card-tags">
-                    <span>Leadership</span>
-                    <span>Debugging</span>
+                    <h3>
+                        Use Case Walk Through
+                    </h3>
+
+                    <p>
+                        I designed a reusable ability architecture with some help from Unreal's Gameplay Ability System that allowed
+                        different character classes to share the same underlying
+                        system while still having completely different gameplay
+                        identities.
+                    </p>
+
+                    <p>
+                        The following walkthrough shows how an ability moves
+                        through the system when a user utilizes one of there abilities
+                    </p>
+
                 </div>
 
-            </article>
 
-        </div>
+                <!-- STEP 01 -->
 
-    </section>
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Player activates an ability
+                        </h3>
+
+                        <p>
+                            The player presses an input mapped to one of their
+                            character's abilities. The input is passed into the
+                            character's ability system and begins the activation
+                            process.
+                        </p>
+
+                        <div class="code-image">
+
+                            <img
+                                src="../images/Step1.png"
+                                alt="Ability input C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
 
 
-    <!-- ABILITY SYSTEM -->
-    <section class="detail-section">
+                <!-- STEP 02 -->
 
-        <p class="eyebrow">04 • GAMEPLAY SYSTEMS</p>
+                <article class="walkthrough-step">
 
-        <h2>Modular ability architecture</h2>
+                    <div class="step-number">
+                        02
+                    </div>
 
-        <div class="technical-block">
+                    <div class="step-content">
 
-            <div class="technical-copy">
+                        <h3>
+                            Ability activation
+                        </h3>
 
-                <h3>Reusable gameplay logic</h3>
+                        <p>
+                            The ability checks whether it can currently be
+                            activated, including cooldowns, gameplay state,
+                            and other activation requirements.
+                        </p>
 
-                <p>
-                    The ability system was designed around reusable gameplay
-                    logic so different character classes could share the same
-                    foundation while still providing distinct attacks and
-                    mechanics.
-                </p>
+                        <div class="code-image">
 
-                <p>
-                    Abilities could be categorized by their gameplay purpose
-                    and configured for different targeting behaviours. This
-                    made it easier to introduce new abilities without
-                    rewriting the character architecture.
-                </p>
+                            <img
+                                src="../images/Step2.png"
+                                alt="Ability activation C++ code"
+                                loading="lazy">
 
-                <div class="card-tags">
-                    <span>Offensive</span>
-                    <span>Defensive</span>
-                    <span>Utility</span>
-                    <span>Ultimate</span>
-                </div>
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STEP 03 -->
+
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Determine the target
+                        </h3>
+
+                        <p>
+                            The ability determines what it should affect based
+                            on its configured target type. This can include the
+                            player, a single enemy, an area, or a cone.
+                        </p>
+
+                        <div class="code-image">
+
+                            <img
+                                src="../images/Step3.png"
+                                alt="Ability targeting C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STEP 04 -->
+
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        04
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Execute gameplay logic
+                        </h3>
+
+                        <p>
+                            Once the target is determined, the ability executes
+                            its gameplay logic. Depending on the ability, this
+                            can involve damage, healing, buffs, debuffs, movement,
+                            or other gameplay effects.
+                        </p>
+
+                        <div class="code-image">
+
+                            <img
+                                src="../images/Step4.png"
+                                alt="Ability execution C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STEP 05 -->
+
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        05
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Server-side execution
+                        </h3>
+
+                        <p>
+                            In multiplayer, gameplay-critical actions need to
+                            be handled with the server in mind so that clients
+                            cannot independently determine authoritative
+                            gameplay results.
+                        </p>
+
+                        <div class="code-image">
+
+                            <img
+                                src="../images/Step5.png"
+                                alt="Server-side gameplay C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STEP 06 -->
+
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        06
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Replicate gameplay state
+                        </h3>
+
+                        <p>
+                            Relevant gameplay state, effects, animations, or
+                            events are replicated so connected players receive
+                            the correct result.
+                        </p>
+
+                        <div class="code-image">
+
+                            <img
+                                src="../images/Step6.png"
+                                alt="Gameplay replication C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- STEP 07 -->
+
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        07
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Gameplay result
+                        </h3>
+
+                        <p>
+                            The ability completes its execution and the resulting
+                            gameplay changes are reflected across the connected
+                            players.
+                        </p>
+
+                        <div class="code-image">
+
+                            <img
+                                src="../images/Step7.png"
+                                alt="Final gameplay result C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
 
             </div>
 
+        </article>
 
-            <div class="code-showcase">
 
-                <div class="code-label">
-                    <span>AbilityBase.h</span>
-                    <span>C++</span>
+
+        <!-- =========================================
+             MULTIPLAYER
+        ========================================== -->
+
+        <article class="contribution-item">
+
+            <button class="contribution-button" type="button">
+
+                <div class="contribution-number">
+                    02
                 </div>
 
-                <img src="../images/blood-lineage/code-ability.jpg"
-                     alt="AbilityBase C++ code">
+                <div class="contribution-info">
+
+                    <h3>
+                        Multiplayer
+                    </h3>
+
+                    <p>
+                        Worked on replication for abilities, attacks,
+                        animations, effects, and gameplay state.
+                    </p>
+
+                </div>
+
+                <div class="contribution-icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+            </button>
+
+
+            <div class="contribution-content">
+
+                <div class="contribution-intro">
+
+                    <p class="eyebrow">
+                        MULTIPLAYER
+                    </p>
+
+                    <h3>
+                        Building gameplay around multiplayer
+                    </h3>
+
+                    <p>
+                        Multiplayer was an important part of the project.
+                        Gameplay-critical actions needed to behave correctly
+                        between the server and connected clients.
+                    </p>
+
+                    <p>
+                        This section can be expanded with the specific
+                        replication code, RPCs, replicated variables,
+                        and networking problems you solved.
+                    </p>
+
+                </div>
+
+
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Replication architecture
+                        </h3>
+
+                        <p>
+                            Add an explanation of how your gameplay systems
+                            communicate between the client and server.
+                        </p>
+
+                        <!-- Add your multiplayer screenshot here -->
+
+                    </div>
+
+                </article>
 
             </div>
 
-        </div>
-
-    </section>
+        </article>
 
 
-    <!-- CODE -->
+
+        <!-- =========================================
+             CHARACTER SYSTEMS
+        ========================================== -->
+
+        <article class="contribution-item">
+
+            <button class="contribution-button" type="button">
+
+                <div class="contribution-number">
+                    03
+                </div>
+
+                <div class="contribution-info">
+
+                    <h3>
+                        Character Systems
+                    </h3>
+
+                    <p>
+                        Built systems supporting multiple playable classes,
+                        unique abilities, combat mechanics, and camera behaviour.
+                    </p>
+
+                </div>
+
+                <div class="contribution-icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+            </button>
+
+
+            <div class="contribution-content">
+
+                <div class="contribution-intro">
+
+                    <p class="eyebrow">
+                        CHARACTER SYSTEMS
+                    </p>
+
+                    <h3>
+                        Supporting unique playable classes
+                    </h3>
+
+                    <p>
+                        Blood &amp; Lineage featured multiple playable classes,
+                        each with different combat roles and gameplay abilities.
+                    </p>
+
+                    <p>
+                        I worked on the character-side systems that allowed
+                        these classes to share common functionality while
+                        maintaining their individual gameplay behaviour.
+                    </p>
+
+                </div>
+
+
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Character architecture
+                        </h3>
+
+                        <p>
+                            Add your character inheritance, class selection,
+                            combat, or camera implementation here.
+                        </p>
+
+                        <!-- Add your character screenshot here -->
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </article>
+
+
+
+        <!-- =========================================
+             TEAM LEADERSHIP
+        ========================================== -->
+
+        <article class="contribution-item">
+
+            <button class="contribution-button" type="button">
+
+                <div class="contribution-number">
+                    04
+                </div>
+
+                <div class="contribution-info">
+
+                    <h3>
+                        Team Leadership
+                    </h3>
+
+                    <p>
+                        Coordinated programming tasks, assisted with debugging,
+                        and helped maintain project stability throughout development.
+                    </p>
+
+                </div>
+
+                <div class="contribution-icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+            </button>
+
+
+            <div class="contribution-content">
+
+                <div class="contribution-intro">
+
+                    <p class="eyebrow">
+                        TEAM LEADERSHIP
+                    </p>
+
+                    <h3>
+                        Leading development across an 11-person team
+                    </h3>
+
+                    <p>
+                        As a programming lead, I helped coordinate programming
+                        tasks, debug problems across systems, and keep gameplay
+                        development moving throughout the project.
+                    </p>
+
+                    <p>
+                        This section can be used to showcase development
+                        workflows, debugging examples, Git practices,
+                        technical decisions, and problems solved with the team.
+                    </p>
+
+                </div>
+
+
+                <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        01
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Debugging and development workflow
+                        </h3>
+
+                        <p>
+                            Add examples of difficult bugs, debugging processes,
+                            technical decisions, or team coordination here.
+                        </p>
+
+                        <!-- Add your screenshot here -->
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+    <!-- =========================================
+         04 — CHALLENGES
+    ========================================== -->
+
     <section class="detail-section">
 
-        <p class="eyebrow">05 • CODE</p>
-
-        <h2>Ability implementation</h2>
-
-        <p class="section-description">
-            Example of the C++ architecture used to implement gameplay
-            abilities.
+        <p class="eyebrow">
+            05 • CHALLENGES
         </p>
 
 
-        <div class="code-large">
-
-            <div class="code-header">
-
-                <span>AbilityBase.cpp</span>
-
-                <span>C++</span>
-
-            </div>
-
-            <img src="../images/blood-lineage/code-ability-large.jpg"
-                 alt="AbilityBase C++ implementation">
-
-        </div>
-
-    </section>
-
-
-    <!-- NETWORKING -->
-    <section class="detail-section">
-
-        <p class="eyebrow">06 • NETWORKING</p>
-
-        <h2>Networked gameplay</h2>
-
-        <div class="technical-block">
-
-            <div class="technical-copy">
-
-                <h3>Client and server consistency</h3>
-
-                <p>
-                    Multiplayer consistency was one of the major technical
-                    challenges of the project. Gameplay could not rely solely
-                    on local execution.
-                </p>
-
-                <p>
-                    Abilities, attacks, animations, effects, and gameplay
-                    state needed to remain synchronized between clients
-                    and the server.
-                </p>
-
-                <div class="card-tags">
-                    <span>Server</span>
-                    <span>Client</span>
-                    <span>Replication</span>
-                    <span>RPC</span>
-                </div>
-
-            </div>
-
-
-            <div class="code-showcase">
-
-                <div class="code-label">
-                    <span>Networked Ability</span>
-                    <span>C++</span>
-                </div>
-
-                <img src="../images/blood-lineage/code-networking.jpg"
-                     alt="Networked gameplay C++ code">
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- MULTIPLAYER -->
-    <section class="detail-section">
-
-        <p class="eyebrow">07 • MULTIPLAYER</p>
-
-        <h2>Designed for cooperative gameplay</h2>
-
-        <div class="feature-image">
-
-            <img src="../images/blood-lineage/multiplayer.jpg"
-                 alt="Blood and Lineage multiplayer gameplay">
-
-        </div>
-
-        <p class="image-caption">
-            Multiplayer gameplay running across multiple connected players.
-        </p>
-
-    </section>
-
-
-    <!-- CHARACTERS -->
-    <section class="detail-section">
-
-        <p class="eyebrow">08 • CHARACTER DESIGN</p>
-
-        <h2>Four distinct gameplay identities</h2>
-
-
-        <div class="class-grid">
-
-            <article class="class-card">
-
-                <img src="../images/blood-lineage/ares.jpg"
-                     alt="Ares">
-
-                <div>
-                    <span>Ares</span>
-                    <strong>Tank</strong>
-                </div>
-
-            </article>
-
-
-            <article class="class-card">
-
-                <img src="../images/blood-lineage/artemis.jpg"
-                     alt="Artemis">
-
-                <div>
-                    <span>Artemis</span>
-                    <strong>Ranged DPS</strong>
-                </div>
-
-            </article>
-
-
-            <article class="class-card">
-
-                <img src="../images/blood-lineage/nemesis.jpg"
-                     alt="Nemesis">
-
-                <div>
-                    <span>Nemesis</span>
-                    <strong>Melee DPS</strong>
-                </div>
-
-            </article>
-
-
-            <article class="class-card">
-
-                <img src="../images/blood-lineage/aphrodite.jpg"
-                     alt="Aphrodite">
-
-                <div>
-                    <span>Aphrodite</span>
-                    <strong>Support</strong>
-                </div>
-
-            </article>
-
-        </div>
-
-    </section>
-
-
-    <!-- CHALLENGES -->
-    <section class="detail-section">
-
-        <p class="eyebrow">09 • CHALLENGES</p>
-
-        <h2>Problems worth solving</h2>
+        <h2>
+            Problems worth solving
+        </h2>
 
 
         <div class="challenge-list">
 
+
             <article>
 
-                <span>01</span>
+                <span>
+                    01
+                </span>
 
                 <div>
-                    <h3>Keeping systems modular</h3>
+
+                    <h3>
+                        Designing a reusable ability system
+                    </h3>
 
                     <p>
-                        Multiple playable classes needed different gameplay
-                        identities without creating a separate architecture
-                        for every character.
+
+                        Multiple characters needed completely different
+                        gameplay identities while still sharing the same
+                        underlying architecture. The system needed to be
+                        flexible enough to support new abilities without
+                        creating duplicated gameplay code.
+
                     </p>
+
                 </div>
 
             </article>
 
 
+
             <article>
 
-                <span>02</span>
+                <span>
+                    02
+                </span>
 
                 <div>
-                    <h3>Maintaining multiplayer consistency</h3>
+
+                    <h3>
+                        Multiplayer consistency
+                    </h3>
 
                     <p>
-                        Gameplay could not rely solely on local execution.
-                        Abilities, attacks, animations, and effects needed
-                        to remain consistent between players and the server.
+
+                        Gameplay could not simply execute locally.
+                        Abilities, attacks, animations, effects, and
+                        gameplay state needed to behave consistently
+                        between the server and connected clients.
+
                     </p>
+
                 </div>
 
             </article>
 
 
+
             <article>
 
-                <span>03</span>
+                <span>
+                    03
+                </span>
 
                 <div>
-                    <h3>Managing a team project</h3>
+
+                    <h3>
+                        Debugging a large team project
+                    </h3>
 
                     <p>
-                        As team lead, I helped coordinate development,
-                        organize tasks, troubleshoot issues, and keep the
-                        project moving toward a stable playable build.
+
+                        Working across a team of 11 developers meant that
+                        gameplay systems frequently interacted with systems
+                        created by other programmers. Debugging often
+                        required tracing problems across multiple classes
+                        and systems.
+
                     </p>
+
                 </div>
 
             </article>
+
 
         </div>
 
     </section>
 
 
-    <!-- TAKEAWAYS -->
-    <section class="detail-section">
 
-        <p class="eyebrow">10 • TAKEAWAYS</p>
+    <!-- =========================================
+         FINAL LINKS
+    ========================================== -->
 
-        <h2>What I learned</h2>
-
-
-        <div class="takeaway-grid">
-
-            <div>
-                <h3>Gameplay Architecture</h3>
-
-                <p>
-                    Structuring reusable gameplay systems that can support
-                    multiple characters and mechanics.
-                </p>
-            </div>
-
-
-            <div>
-                <h3>Network Programming</h3>
-
-                <p>
-                    Debugging client/server behaviour and multiplayer
-                    replication in Unreal Engine.
-                </p>
-            </div>
-
-
-            <div>
-                <h3>Production</h3>
-
-                <p>
-                    Understanding how technical decisions affect a larger
-                    team and a project developed over several months.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- FINAL -->
     <section class="final-section">
 
-        <p class="eyebrow">11 • PROJECT LINKS</p>
+        <p class="eyebrow">
+            PROJECT LINKS
+        </p>
 
-        <h2>See it in action</h2>
+
+        <h2>
+            See it in action
+        </h2>
+
 
         <p>
-            Watch the gameplay showcase or explore the rest of my projects.
+
+            Watch the gameplay showcase or return to the rest of my work.
+
         </p>
 
 
         <div class="detail-links">
 
-            <a href="https://youtu.be/oWBnQoz2f60"
-               target="_blank"
-               rel="noopener noreferrer"
-               class="detail-button primary-detail-button">
+            <a
+                href="https://youtu.be/oWBnQoz2f60"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="detail-button primary-detail-button">
 
                 <i class="fa-brands fa-youtube"></i>
+
                 Watch Gameplay
 
             </a>
 
 
-            <a href="../index.html#work"
-               class="detail-button">
+            <a
+                href="../index.html#work"
+                class="detail-button">
 
                 <i class="fa-solid fa-arrow-left"></i>
+
                 Back to Projects
 
             </a>
@@ -637,22 +956,194 @@
 
     </section>
 
+
 </main>
+
+
+
+<!-- =========================================
+     IMAGE LIGHTBOX
+========================================== -->
+
+<div class="image-lightbox" id="imageLightbox">
+
+    <button class="lightbox-close" aria-label="Close image">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+
+    <img id="lightboxImage" src="" alt="Expanded code screenshot">
+
+</div>
+
 
 
 <footer>
 
-    <p>© 2026 Antonio Leo</p>
+    <p>
+        © 2026 Antonio Leo
+    </p>
+
 
     <p>
+
         Gameplay Programmer •
-        <i class="devicon-cplusplus-plain" title="C++"></i>
+
+        <i
+            class="devicon-cplusplus-plain"
+            title="C++">
+        </i>
+
         •
-        <i class="devicon-unrealengine-original" title="Unreal Engine"></i>
+
+        <i
+            class="devicon-unrealengine-original"
+            title="Unreal Engine">
+        </i>
+
     </p>
 
 </footer>
 
+
+
+<script>
+
+document.addEventListener("DOMContentLoaded", () => {
+
+
+    /* =========================================
+       IMAGE LIGHTBOX
+    ========================================== */
+
+    const codeImages = document.querySelectorAll(".code-image img");
+
+    const lightbox = document.getElementById("imageLightbox");
+
+    const lightboxImage = document.getElementById("lightboxImage");
+
+    const closeButton = document.querySelector(".lightbox-close");
+
+
+    codeImages.forEach(image => {
+
+        image.addEventListener("click", () => {
+
+            lightboxImage.src = image.src;
+
+            lightbox.classList.add("active");
+
+            document.body.style.overflow = "hidden";
+
+        });
+
+    });
+
+
+    function closeLightbox() {
+
+        lightbox.classList.remove("active");
+
+        document.body.style.overflow = "";
+
+    }
+
+
+    if (closeButton) {
+
+        closeButton.addEventListener("click", closeLightbox);
+
+    }
+
+
+    if (lightbox) {
+
+        lightbox.addEventListener("click", event => {
+
+            if (event.target === lightbox) {
+
+                closeLightbox();
+
+            }
+
+        });
+
+    }
+
+
+    document.addEventListener("keydown", event => {
+
+        if (event.key === "Escape") {
+
+            closeLightbox();
+
+        }
+
+    });
+
+
+
+    /* =========================================
+       CONTRIBUTION ACCORDION
+    ========================================== */
+
+    const contributionItems =
+        document.querySelectorAll(".contribution-item");
+
+
+    contributionItems.forEach(item => {
+
+        const button =
+            item.querySelector(".contribution-button");
+
+
+        if (!button) {
+            return;
+        }
+
+
+        button.addEventListener("click", () => {
+
+            const wasOpen =
+                item.classList.contains("active");
+
+
+            /*
+             * Close all contribution tabs first
+             */
+
+            contributionItems.forEach(otherItem => {
+
+                otherItem.classList.remove("active");
+
+            });
+
+
+            /*
+             * If the clicked tab was previously closed,
+             * open it.
+             *
+             * If it was already open, leave everything closed.
+             */
+
+            if (!wasOpen) {
+
+                item.classList.add("active");
+
+            }
+
+        });
+
+    });
+
+});
+
+</script>
+
+
 </body>
+
 </html>
-```
+
