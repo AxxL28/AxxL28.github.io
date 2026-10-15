@@ -270,14 +270,11 @@
                     <div class="step-content">
 
                         <h3>
-                            Player activates an ability
+                            Character selection
                         </h3>
 
                         <p>
-                            The player presses an input mapped to one of their
-                            character's abilities. The input is passed into the
-                            character's ability system and begins the activation
-                            process.
+                            To begin, in the lobby when you select your character and press start, you will be brought through SpawnDefaultPawnFor to set the player state to the proper class that was chosen. 
                         </p>
 
                         <div class="code-image">
@@ -309,13 +306,13 @@
                     <div class="step-content">
 
                         <h3>
-                            Ability activation
+                            Keybind press
                         </h3>
 
                         <p>
-                            The ability checks whether it can currently be
-                            activated, including cooldowns, gameplay state,
-                            and other activation requirements.
+                        The abilities are organized into categories, Damage, Defence, Utility, and Ultimate.
+                        The way it is set up there are four different keybinds for all the categories. 
+                        In this example, Bundle of Joy is a damage ability so when the key is pressed it will go through DamageAbility().
                         </p>
 
                         <div class="code-image">
@@ -347,13 +344,12 @@
                     <div class="step-content">
 
                         <h3>
-                            Determine the target
+                            Determining character
                         </h3>
 
                         <p>
-                            The ability determines what it should affect based
-                            on its configured target type. This can include the
-                            player, a single enemy, an area, or a cone.
+                        Next, we enter the head player class, RelicRunnersCharacter. Here is where we automatically decide which sub characters ability is called.
+                        The functions ActivateDamageAbility() and the other three are virtual functions which all the other sub characters use in their own unique ways. 
                         </p>
 
                         <div class="code-image">
@@ -385,14 +381,14 @@
                     <div class="step-content">
 
                         <h3>
-                            Execute gameplay logic
+                            Ability activation
                         </h3>
 
                         <p>
-                            Once the target is determined, the ability executes
-                            its gameplay logic. Depending on the ability, this
-                            can involve damage, healing, buffs, debuffs, movement,
-                            or other gameplay effects.
+                            Once it has gone through the virtual function, 
+                            it will bring you to the sub character class based on what the player selected (in this case Aphrodite), 
+                            and here is where the player gets access and attempts to use the ability using Gameplay Ability System. 
+                            The function GiveAbility grants the character class access to that ability and TryActivateAbilityByClass attempts to activate it 
                         </p>
 
                         <div class="code-image">
@@ -428,10 +424,7 @@
                         </h3>
 
                         <p>
-                            In multiplayer, gameplay-critical actions need to
-                            be handled with the server in mind so that clients
-                            cannot independently determine authoritative
-                            gameplay results.
+                            Every ability has an ActivateAbility which handles cooldowns, initial spawning guides and null checks.
                         </p>
 
                         <div class="code-image">
@@ -463,13 +456,11 @@
                     <div class="step-content">
 
                         <h3>
-                            Replicate gameplay state
+                            Cleanup
                         </h3>
 
                         <p>
-                            Relevant gameplay state, effects, animations, or
-                            events are replicated so connected players receive
-                            the correct result.
+                            Once the Ability is done with its functionality, EndAllAbilities() is called which stops all traces of the ability and handles resetting timers.
                         </p>
 
                         <div class="code-image">
@@ -548,7 +539,7 @@
                 <div class="contribution-info">
 
                     <h3>
-                        Multiplayer
+                        Camera Work
                     </h3>
 
                     <p>
@@ -570,11 +561,11 @@
                 <div class="contribution-intro">
 
                     <p class="eyebrow">
-                        MULTIPLAYER
+                        CAMERA
                     </p>
 
                     <h3>
-                        Building gameplay around multiplayer
+                        Camera Logic Breakdown
                     </h3>
 
                     <p>
@@ -601,20 +592,126 @@
                     <div class="step-content">
 
                         <h3>
-                            Replication architecture
+                            Updating Camera
                         </h3>
 
                         <p>
-                            Add an explanation of how your gameplay systems
-                            communicate between the client and server.
+                            Manages the camera system by coordinating position, rotation and enemy detection. If the user is Nemesis or Ares, they will not use the reticle logic. 
                         </p>
 
-                        <!-- Add your multiplayer screenshot here -->
+                            <div class="code-image">
+
+                            <img
+                                src="../images/cam.png"
+                                alt="Final gameplay result C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
 
                     </div>
 
                 </article>
 
+                 <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        02
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Detecting Enemies
+                        </h3>
+
+                        <p>
+                            Detects nearby enemies within a 500-unit radius and identifies the closest target to adjust the camera for combat.
+                        </p>
+
+                            <div class="code-image">
+
+                            <img
+                                src="../images/enemies.png"
+                                alt="Final gameplay result C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+                 <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        03
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Updating Position
+                        </h3>
+
+                        <p>
+                            Dynamically adjusts camera distance, height, lag, and look-ahead based on player movement and nearby enemies for improved visibility and spatial awareness.
+                        </p>
+
+                            <div class="code-image">
+
+                            <img
+                                src="../images/pos.png"
+                                alt="Final gameplay result C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+                 <article class="walkthrough-step">
+
+                    <div class="step-number">
+                        04
+                    </div>
+
+                    <div class="step-content">
+
+                        <h3>
+                            Updating Camera Rotation
+                        </h3>
+
+                        <p>
+                            Smoothly synchronizes camera and character rotation with player input, clamping camera pitch to maintain controlled and consistent viewing angles.
+                        </p>
+
+                            <div class="code-image">
+
+                            <img
+                                src="../images/rot.png"
+                                alt="Final gameplay result C++ code"
+                                loading="lazy">
+
+                            <span class="expand-hint">
+                                <i class="fa-solid fa-expand"></i>
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </article>
             </div>
 
         </article>
